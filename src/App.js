@@ -1,11 +1,16 @@
 import React from 'react';
-import ConteoRegresivo from '.components/ConteoRegresivo'
+import ConteoRegresivo from './components/ConteoRegresivo'
 
 function App() {
   return (
-    <div>
-        <ConteoRegresivo />
-    </div>
+  <div>
+        <div>
+            <ConteoRegresivo />
+        </div>
+        <div>
+            <ConteoRegresivo />
+        </div>
+   </div>
   );
 }
 
